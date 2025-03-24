@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .price-container,
+  .order-form,
+  .order-list {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    padding: 5px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+  }
+  
+  .filled {
+    color: green;
+  }
+  
+  .unfilled {
+    color: red;
+  }
+  

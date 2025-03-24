@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulated Market Orders</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simulated Market Order System</h1>
+    <div class="price-container">
+      <h3>Current Market Price: <span id="market-price">100</span></h3>
+      <button onclick="updateMarketPrice()">Update Market Price</button>
+    </div>
+
+    <div class="order-form">
+      <h3>Place an Order</h3>
+      <label for="order-type">Order Type:</label>
+      <select id="order-type">
+        <option value="market">Market Order</option>
+        <option value="limit">Limit Order</option>
+      </select>
+
+      <label for="order-price">Order Price:</label>
+      <input type="number" id="order-price" placeholder="Enter price" />
+
+      <label for="order-amount">Amount:</label>
+      <input type="number" id="order-amount" placeholder="Enter amount" />
+
+      <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+    <div class="order-list">
+      <h3>Orders</h3
